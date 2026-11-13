@@ -1,0 +1,20 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Monitoring data
+prometheus-data/
+grafana-data/
+
+# System files
+.DS_Store
+Thumbs.db
